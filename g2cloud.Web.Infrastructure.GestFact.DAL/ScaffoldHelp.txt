@@ -1,0 +1,22 @@
+﻿https://learn.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext
+
+SELECT TABLE_NAME FROM [DatabaseName].INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
+
+Comando para crear el modelo a partir de la base de datos con scaffold:
+
+Scaffold-DbContext -Connection "data source=10.5.1.11;initial catalog=GESTFACT;persist security info=True;TrustServerCertificate=True;user id=UsrLog;password=g2021Cloud;MultipleActiveResultSets=True;"
+                   -Provider Microsoft.EntityFrameworkCore.SqlServer
+                   -OutputDir Models
+                   -ContextDir Context
+                   -Namespace g2cloud.GestFact.Infrastructure.DAL
+                   -ContextNamespace g2cloud.GestFact.Infrastructure.DAL
+                   -Context GestFactContext
+                   -Tables "WCONTENT", "WDATA", "WPAGE", "WSECTION", "WSITE", "WTCON"
+                   -UseDatabaseNames
+                   -Force
+                   -NoOnConfiguring
+                   -NoPluralize
+
+Scaffold-DbContext -Connection "data source=10.5.1.11;initial catalog=GESTFACT;persist security info=True;TrustServerCertificate=True;user id=UsrLog;password=g2021Cloud;MultipleActiveResultSets=True;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Context -Namespace g2cloud.Web.Infrastructure.GestFact.DAL -ContextNamespace g2cloud.Web.Infrastructure.GestFact.DAL -Context GestFactContext -Tables "WCONTENT", "WDATA", "WPAGE", "WSECTION", "WSITE", "WTCON" -UseDatabaseNames -Force -NoOnConfiguring -NoPluralize
+
+*Se ejecuta en Herramientas -> Administrador de paquetes Nuget -> Consola del Administrador de paquetes

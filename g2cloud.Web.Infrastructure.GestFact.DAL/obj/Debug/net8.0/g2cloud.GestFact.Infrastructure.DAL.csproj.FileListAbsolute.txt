@@ -1,0 +1,14 @@
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\bin\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.deps.json
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\bin\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.runtimeconfig.json
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\bin\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.dll
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\bin\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.pdb
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.csproj.AssemblyReference.cache
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.AssemblyInfoInputs.cache
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.AssemblyInfo.cs
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.csproj.CoreCompileInputs.cache
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.dll
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\refint\g2cloud.GestFact.Infrastructure.DAL.dll
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.pdb
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\g2cloud.GestFact.Infrastructure.DAL.genruntimeconfig.cache
+C:\Repos\g2c-web\g2cloud.GestFact.Infrastructure.DAL\obj\Debug\net8.0\ref\g2cloud.GestFact.Infrastructure.DAL.dll

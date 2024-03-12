@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Repos\\g2c-web\\g2cloud.Web.Presentation.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\g2cloud.Web.Presentation.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\g2cloud.Web.Presentation.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Repos\\g2c-web\\g2cloud.Web.Presentation.WebUI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Repos\\g2c-web\\g2cloud.Web.Presentation.WebUI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Repos\\g2c-web\\g2cloud.Web.Presentation.WebUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Repos\\g2c-web\\g2cloud.Web.Presentation.WebUI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.g2cloud.Web.Presentation.WebUI.props",
+      "PackagePath": "build\\g2cloud.Web.Presentation.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.g2cloud.Web.Presentation.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\g2cloud.Web.Presentation.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.g2cloud.Web.Presentation.WebUI.props",
+      "PackagePath": "buildTransitive\\g2cloud.Web.Presentation.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.g2cloud.Web.Presentation.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\g2cloud.Web.Presentation.WebUI.props" />
+</Project>
