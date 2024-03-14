@@ -1,14 +1,20 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
-<PageTitle>Home</PageTitle>
+<PageTitle>@content.Title</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>@content.Description</h1>
 
-Welcome to your new app.
+@content.Keywords
 
 
 @code {
 
-
+    Page content = new Page
+    {
+        Title = "Home",
+        Description = "Welcome to your new app.",
+        Keywords = "ASP.NET, web, app, .NET, Core"
+    };
 
 }

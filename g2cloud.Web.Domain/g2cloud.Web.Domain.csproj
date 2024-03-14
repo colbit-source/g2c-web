@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\g2cloud.Web.Infrastructure.GestFact.DAL\g2cloud.Web.Infrastructure.GestFact.DAL.csproj" />
     <ProjectReference Include="..\g2cloud.Web.Infrastructure.GestFrut.REST\g2cloud.Web.Infrastructure.GestFrut.REST.csproj" />
   </ItemGroup>

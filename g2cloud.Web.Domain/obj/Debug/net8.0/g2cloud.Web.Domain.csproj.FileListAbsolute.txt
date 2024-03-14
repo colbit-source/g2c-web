@@ -15,3 +15,4 @@ C:\Repos\g2c-web\g2cloud.Web.Domain\obj\Debug\net8.0\g2cloud.Web.Domain.dll
 C:\Repos\g2c-web\g2cloud.Web.Domain\obj\Debug\net8.0\refint\g2cloud.Web.Domain.dll
 C:\Repos\g2c-web\g2cloud.Web.Domain\obj\Debug\net8.0\g2cloud.Web.Domain.pdb
 C:\Repos\g2c-web\g2cloud.Web.Domain\obj\Debug\net8.0\ref\g2cloud.Web.Domain.dll
+C:\Repos\g2c-web\g2cloud.Web.Domain\obj\Debug\net8.0\g2cloud.Web.Domain.sourcelink.json

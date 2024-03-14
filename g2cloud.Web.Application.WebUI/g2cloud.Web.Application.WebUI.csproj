@@ -10,9 +10,4 @@
     <ProjectReference Include="..\g2cloud.Web.Domain\g2cloud.Web.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mediators\Public\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

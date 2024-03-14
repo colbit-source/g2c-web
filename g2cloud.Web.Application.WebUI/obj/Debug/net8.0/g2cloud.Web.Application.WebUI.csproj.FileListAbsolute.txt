@@ -17,3 +17,4 @@ C:\Repos\g2c-web\g2cloud.Web.Application.WebUI\obj\Debug\net8.0\g2cloud.Web.Appl
 C:\Repos\g2c-web\g2cloud.Web.Application.WebUI\obj\Debug\net8.0\refint\g2cloud.Web.Application.WebUI.dll
 C:\Repos\g2c-web\g2cloud.Web.Application.WebUI\obj\Debug\net8.0\g2cloud.Web.Application.WebUI.pdb
 C:\Repos\g2c-web\g2cloud.Web.Application.WebUI\obj\Debug\net8.0\ref\g2cloud.Web.Application.WebUI.dll
+C:\Repos\g2c-web\g2cloud.Web.Application.WebUI\obj\Debug\net8.0\g2cloud.Web.Application.WebUI.sourcelink.json

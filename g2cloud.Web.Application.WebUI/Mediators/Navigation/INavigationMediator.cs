@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using g2cloud.Web.Application.WebUI.Models;
+
 namespace g2cloud.Web.Application.WebUI.Mediators
 {
     public interface INavigationMediator
     {
+        Task<Menu> GetNavigationMenu();
     }
 }

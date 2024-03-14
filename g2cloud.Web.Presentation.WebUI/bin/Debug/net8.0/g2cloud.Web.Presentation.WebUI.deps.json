@@ -569,6 +569,10 @@
         }
       },
       "g2cloud.Web.Infrastructure.GestFrut.REST/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0"
+        },
         "runtime": {
           "g2cloud.Web.Infrastructure.GestFrut.REST.dll": {}
         }
