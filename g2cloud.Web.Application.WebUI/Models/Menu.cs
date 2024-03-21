@@ -29,30 +29,30 @@ namespace g2cloud.Web.Application.WebUI.Models
 
         #endregion
 
-        public Menu() 
-        {
-            Link itemHome = new Link
-            {
-                Text = "Home",
-                Url = "/",
-                CssClass = "",
-                Active = false,
-                Order = 1
-            };
+        //public Menu() 
+        //{
+        //    Link itemHome = new Link
+        //    {
+        //        Text = "Home",
+        //        Url = "/",
+        //        CssClass = "",
+        //        Active = false,
+        //        Order = 1
+        //    };
 
-            Items.Add(itemHome);
+        //    Items.Add(itemHome);
 
-            Link itemAbout = new Link
-            {
-                Text = "About",
-                Url = "/about",
-                CssClass = "",
-                Active = false,
-                Order = 2
-            };
+        //    Link itemAbout = new Link
+        //    {
+        //        Text = "About",
+        //        Url = "/about",
+        //        CssClass = "",
+        //        Active = false,
+        //        Order = 2
+        //    };
 
-            Items.Add(itemAbout);
-        }
+        //    Items.Add(itemAbout);
+        //}
 
         ///* Constructor parametrizado */
         //public Menu(string page, MenuType type, bool isUserLoggedIn)

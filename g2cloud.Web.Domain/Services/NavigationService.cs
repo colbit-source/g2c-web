@@ -25,7 +25,7 @@ namespace g2cloud.Web.Domain.Services
             
             var mItems = await new GestFactDAO<WPAGE>().GetListAsync(_context, x => x.WSITE.WSI_URL == site && x.WPA_EST == "ACTIVO" && x.WPA_TOPVER == "SI", x => x.WSITE);
 
-            if (mItems != null && mItems.Count() > 0)
+            if (mItems != null && mItems.Count() > 0) 
             {
                 foreach (var mItem in mItems.OrderBy(x => x.WPA_TOPORD))
                 {

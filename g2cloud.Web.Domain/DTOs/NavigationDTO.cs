@@ -13,9 +13,9 @@ namespace g2cloud.Web.Domain.DTOs
 
     public class LinkDTO
     {
-        public string Text { get; set; }
-        public string Url { get; set; }
-        public int Order { get; set; } = 0;
+        public string Text  { get; set; }
+        public string Url   { get; set; }
+        public int    Order { get; set; } = 0;
     }
 
     public class NavigationDTO

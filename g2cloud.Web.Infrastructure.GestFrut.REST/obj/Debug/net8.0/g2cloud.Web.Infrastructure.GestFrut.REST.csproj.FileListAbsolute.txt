@@ -1,13 +1,13 @@
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\bin\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.deps.json
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\bin\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.dll
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\bin\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.pdb
+C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.csproj.AssemblyReference.cache
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.GeneratedMSBuildEditorConfig.editorconfig
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.AssemblyInfoInputs.cache
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.AssemblyInfo.cs
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.csproj.CoreCompileInputs.cache
+C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.sourcelink.json
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.dll
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\refint\g2cloud.Web.Infrastructure.GestFrut.REST.dll
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.pdb
 C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\ref\g2cloud.Web.Infrastructure.GestFrut.REST.dll
-C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.csproj.AssemblyReference.cache
-C:\Repos\g2c-web\g2cloud.Web.Infrastructure.GestFrut.REST\obj\Debug\net8.0\g2cloud.Web.Infrastructure.GestFrut.REST.sourcelink.json

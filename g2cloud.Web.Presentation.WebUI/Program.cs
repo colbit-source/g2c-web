@@ -1,4 +1,8 @@
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
 
 using g2cloud.Web.Presentation.WebUI.Components;
 using g2cloud.Web.Application.WebUI.Mediators;
@@ -17,6 +21,8 @@ builder.Services.AddScoped<INavigationMediator, NavigationMediator>();
 builder.Services.AddScoped<IContentMediator, ContentMediator>();
 
 var app = builder.Build();
+
+//var navigationMediatior = app.Services.GetRequiredService<NavigationMediator>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

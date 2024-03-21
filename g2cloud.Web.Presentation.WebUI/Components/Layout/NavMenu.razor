@@ -1,4 +1,6 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject INavigationMediator navigationMediator
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">g2cloud.Presentation.WebUI</a>
     </div>
@@ -24,5 +26,12 @@
 </div>
 
 @code {
-   Menu navigation = new Menu();
+
+    Menu navigation = new Menu();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        navigation = await navigationMediator.GetNavigationMenu();
+    }
+
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("g2cloud.Web.Presentation.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3b9e74d619b87ad9fbc266b2ee5d15fa03c8d3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40db24709ea763d2d67a9df8dc363c3e213a49ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("g2cloud.Web.Presentation.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("g2cloud.Web.Presentation.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
