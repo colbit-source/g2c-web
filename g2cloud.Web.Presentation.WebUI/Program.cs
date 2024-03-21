@@ -22,8 +22,6 @@ builder.Services.AddScoped<IContentMediator, ContentMediator>();
 
 var app = builder.Build();
 
-//var navigationMediatior = app.Services.GetRequiredService<NavigationMediator>();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

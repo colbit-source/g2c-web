@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Azure;
-using g2cloud.Web.Domain.DTOs;
+﻿using g2cloud.Web.Domain.DTOs;
 using g2cloud.Web.Infrastructure.GestFact.DAL;
-using Microsoft.VisualBasic;
 
 namespace g2cloud.Web.Domain.Services
 {

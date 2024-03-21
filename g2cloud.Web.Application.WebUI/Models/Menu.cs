@@ -25,7 +25,7 @@ namespace g2cloud.Web.Application.WebUI.Models
     {
         #region Attributes
 
-        public List<Link> Items { get; set; } = new List<Link>();
+        public List<Link> Items { get; set; } = [];
 
         #endregion
 

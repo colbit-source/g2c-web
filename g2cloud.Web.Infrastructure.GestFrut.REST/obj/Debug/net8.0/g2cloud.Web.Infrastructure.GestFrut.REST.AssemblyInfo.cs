@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("g2cloud.Web.Infrastructure.GestFrut.REST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40db24709ea763d2d67a9df8dc363c3e213a49ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11bcc16c89bb656877a097c3235280e73e0c1ff2")]
 [assembly: System.Reflection.AssemblyProductAttribute("g2cloud.Web.Infrastructure.GestFrut.REST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("g2cloud.Web.Infrastructure.GestFrut.REST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

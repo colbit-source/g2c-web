@@ -22,7 +22,7 @@ namespace g2cloud.Web.Domain.DTOs
     {
         #region Attributes
 
-        public List<LinkDTO> Items { get; set; } = new List<LinkDTO>();
+        public List<LinkDTO> Items { get; set; } = [];
 
         #endregion
 

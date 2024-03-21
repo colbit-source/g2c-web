@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using g2cloud.Web.Domain.DTOs;
 using g2cloud.Web.Infrastructure.GestFact.DAL;
 
 namespace g2cloud.Web.Domain.Services
@@ -15,6 +10,25 @@ namespace g2cloud.Web.Domain.Services
         public ContentService(GestFactContext context)
         {
             _context = context;
+        }
+
+        public async Task<ContentDTO> GetContent(string path)
+        {
+            ContentDTO response = new();
+
+            try
+            {
+                var content = await new GestFactDAO<WPAGE>().GetAsync(_context, x => x.WPA_RUT == path);
+
+                if (content != null)
+                {
+                    response.Title = content.WPA_NOM;
+                    response.Content = content.WPA_CON;
+                }
+            }
+            catch (Exception ex) { }
+
+            return response;
         }
     }
 }

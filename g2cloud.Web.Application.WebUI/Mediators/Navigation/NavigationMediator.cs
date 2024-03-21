@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Configuration;
 
 using g2cloud.Web.Application.WebUI.Models;
 
+using g2cloud.Web.Domain.DTOs;
 using g2cloud.Web.Domain.Services;
 using g2cloud.Web.Infrastructure.GestFact.DAL;
 
@@ -9,81 +11,58 @@ namespace g2cloud.Web.Application.WebUI.Mediators
 {
     public class NavigationMediator : INavigationMediator
     {
-        [Inject]
-        protected GestFactContext _context { get; set; } = default!;
+        //[Inject]
+        //protected GestFactContext _context { get; set; } = default!;
 
         private readonly NavigationService _service;
         
-        public NavigationMediator()
+        public NavigationMediator(GestFactContext context)
         {
-            _service = new NavigationService(_context);
+            _service = new NavigationService(context);
         }
 
         public async Task<Menu> GetNavigationMenu()
         {
-            Menu response = new Menu();
+            Menu response = new();
             
             try 
             {
-                Link itemHome = new Link
+                var siteUrl = GetSiteUrl();
+                
+                var nav = await _service.GetNavigationMenu(siteUrl);
+
+                if (nav != null && nav.Items.Count() > 0)
                 {
-                    Text = "Home",
-                    Url = "/",
-                    CssClass = "",
-                    Active = false,
-                    Order = 1
-                };
+                    foreach (var mItem in nav.Items.OrderBy(x => x.Order))
+                    {
+                        Link item = new()
+                        {
+                            Text = mItem.Text,
+                            //Url = mItem.WSITE.WSI_URL + "/" + mItem.WPA_RUT,
+                            Url = "/" + mItem.Url,
+                            CssClass = "",
+                            //Active = page == mItem.WPA_RUT,
+                            Order = mItem.Order
+                        };
 
-                response.Items.Add(itemHome);
-
-                Link itemAbout = new Link
-                {
-                    Text = "About",
-                    Url = "/about",
-                    CssClass = "",
-                    Active = false,
-                    Order = 2
-                };
-
-                response.Items.Add(itemAbout);
-
-                //var mItems = new GestFactDAO<WPAGE>().GetList(Constants.CONNECTION_STRING, x => x.WSITE.WSI_URL == Constants.SITE && x.WPA_EST == "ACTIVO" && x.WPA_TOPVER == "SI", x => x.WSITE);
-
-                //if (mItems != null && mItems.Count() > 0)
-                //{
-                //    foreach (var mItem in mItems.OrderBy(x => x.WPA_TOPORD))
-                //    {
-                //        Link item = new Link
-                //        {
-                //            Text = mItem.WPA_NOM,
-                //            //Url = mItem.WSITE.WSI_URL + "/" + mItem.WPA_RUT,
-                //            Url = "/" + mItem.WPA_RUT,
-                //            CssClass = "",
-                //            Active = page == mItem.WPA_RUT,
-                //            Order = mItem.WPA_TOPORD
-                //        };
-
-                //        Items.Add(item);
-                //    }
-
-                //    if (isUserLoggedIn)
-                //    {
-                //        Link itemHome = new Link
-                //        {
-                //            Text = "Área Clientes",
-                //            Url = "/area-de-clientes",
-                //            CssClass = "",
-                //            Active = false,
-                //            Order = 100
-                //        };
-
-                //        Items.Add(itemHome);
-                //    }
-                //}
+                        response.Items.Add(item);
+                    }
+                }
             }
             catch (Exception ex) { }
             
             return response;
+        }
+
+        private string GetSiteUrl()
+        {
+            var builder = new ConfigurationBuilder()
+                              .SetBasePath(Directory.GetCurrentDirectory())
+                              .AddJsonFile("appsettings.json");
+
+            IConfigurationRoot configuration = builder.Build();
+
+            return configuration.GetSection("AppSettings")["SiteUrl"] ?? throw new ArgumentNullException("SiteUrl");
         }
     }
 }

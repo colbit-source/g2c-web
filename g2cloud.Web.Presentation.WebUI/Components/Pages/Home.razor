@@ -1,5 +1,7 @@
 ﻿@page "/"
+@page "/{Route}"
 @rendermode InteractiveServer
+@inject IContentMediator contentMediator
 
 <PageTitle>@content.Title</PageTitle>
 
@@ -9,11 +11,19 @@
 
 @code {
 
-    Page content = new Page
+    [Parameter]
+    public string? Route { get; set; }
+
+    Page content = new Page();
+
+    protected override async void OnInitialized()
     {
-        Title = "Home",
-        Description = "Welcome to your new app.",
-        Keywords = "ASP.NET, web, app, .NET, Core"
-    };
+        if (Route == null)
+        {
+            Route = "home";
+        }
+
+        content = await contentMediator.GetContent(Route);
+    }
 
 }
